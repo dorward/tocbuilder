@@ -1,6 +1,6 @@
 # TOCBuilder
 
-**Obsolete**: Use [HTML::Toc][https://metacpan.org/release/HTML-Toc] instead.
+**Obsolete**: Use [HTML::Toc](https://metacpan.org/release/HTML-Toc) instead.
 
 When I went to clean this up and turn it into a module to publish to CPAN, I found HTML::Toc, which is much better. This is preserved for historical interest (and to avoid the breaking of links).
 
@@ -8,7 +8,7 @@ When I went to clean this up and turn it into a module to publish to CPAN, I fou
 
 It should be noted that this document assumes a basic knowledge of executing Perl scripts, and authoring HTML.
 
-Mark up your HTML document as normal. Ensure that your headings are arranged in a hierarchy (i.e. That you don't have an <h3> as the first heading with an <h2> later on in the document, and that if you have a subheading, you only go down one level at a time).
+Mark up your HTML document as normal. Ensure that your headings are arranged in a hierarchy (i.e. That you don't have an `<h3>` as the first heading with an `<h2>` later on in the document, and that if you have a subheading, you only go down one level at a time).
 
 Any heading that you wish to be in the table of contents should be given an id attribute.
 
